@@ -41,7 +41,11 @@ const initializer = () => {
 	loadGifs(whenGifLoad, errorFunction);
 };
 
-module.exports = initializer;
+const getGifs = () => {
+	return gifArray;
+};
+
+module.exports = {initializer, getGifs};
 
 
 
