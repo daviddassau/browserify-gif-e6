@@ -29,7 +29,7 @@ const domOutput = (gifArray) => {
 };
 
 const printToDom = (gifArray) => {
-	outputDiv.innerHTML += domOutput(gifArray);
+	outputDiv.innerHTML = domOutput(gifArray);
 };
 
 module.exports = printToDom;
